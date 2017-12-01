@@ -17,3 +17,40 @@
 #chash{
   display: none;
 }
+
+#question1{
+display: block;
+margin: 0 auto;
+}
+
+label {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: .85em;
+}
+
+#question2{
+display: block;
+margin: 0 auto;
+}
+
+#question3{
+display: block;
+margin: 0 auto;
+}
+
+#question4{
+display: block;
+margin: 0 auto;
+}
+
+#question5{
+display: block;
+margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+}
