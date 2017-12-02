@@ -5,6 +5,7 @@ $(document).ready(function() {
     var question3 = $("select#question3").val();
     var question4 = $("select#question4").val();
     var question5 = $("select#question5").val();
+    var panel = $(".panel").val();
 
     if (question1=== 'large' && question2==='popular' && (question3==='familiar' || question3==='diverse') && (question4==='design' || question4==='function') && question5==='simple') {
       $ ('#java').show();
@@ -12,6 +13,7 @@ $(document).ready(function() {
       $ ('#chash').hide();
       $ ('#css').hide();
       $ ('#php').hide();
+      $('.panel').show();
     }
     else if (question1=== 'large' && (question2==='popular' || question2==='unique') && (question3==='diverse' || question3==='familiar') && question4==='function' && question5==='simple') {
       $ ('#java').hide();
@@ -19,6 +21,7 @@ $(document).ready(function() {
       $ ('#chash').show();
       $ ('#css').hide();
       $ ('#php').hide();
+      $('.panel').show();
     }
     else if ((question1=== 'large' || question1==='small') && question2==='unique' && (question3==='diverse' || question3==='familiar') && question4==='design' && question5==='simple') {
       $ ('#java').hide();
@@ -26,6 +29,7 @@ $(document).ready(function() {
       $ ('#chash').hide();
       $ ('#css').show();
       $ ('#php').hide();
+      $('.panel').show();
     }
     else if ((question1=== 'small' || question1==='large') && question2==='popular' && (question3==='familiar' || question3==='diversity') && question4==='function' && question5==='different') {
       $ ('#java').hide();
@@ -33,6 +37,7 @@ $(document).ready(function() {
       $ ('#chash').hide();
       $ ('#css').hide();
       $ ('#php').hide();
+      $('.panel').show();
     }
     else if ((question1=== 'small' || question1==='large') && question2==='unique' && (question3==='diverse' || question3==='familiar') && question4==='function' && question5==='different') {
       $ ('#java').hide();
@@ -40,6 +45,7 @@ $(document).ready(function() {
       $ ('#chash').hide();
       $ ('#css').hide();
       $ ('#php').show();
+      $('.panel').show();
 
     } else {
       $ ('#java').show();
@@ -47,6 +53,7 @@ $(document).ready(function() {
       $ ('#chash').hide();
       $ ('#css').hide();
       $ ('#php').hide();
+      $('.panel').show();
     }
     event.preventDefault();
   });

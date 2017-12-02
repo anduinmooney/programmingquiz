@@ -28,6 +28,7 @@ label {
     text-align: center;
     line-height: 150%;
     font-size: .85em;
+    color: white;
 }
 
 #question2{
@@ -53,4 +54,37 @@ margin: 0 auto;
 .btn {
     display: block;
     margin: 0 auto;
+}
+
+form .well {
+  background-color: maroon;
+}
+
+body {
+background-image: url("../img/background.jpg");
+background-size: 100% 100%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.answer {
+  width: 300px;
+ border: 25px solid maroon;
+ margin: 25px;
+ display: none;
+}
+.panel-heading{
+  text-align: center;
+}
+
+.panel {
+  display: none;
+  background-color: maroon;
+}
+
+.panel-body h1 {
+  color: white;
 }
